@@ -1,0 +1,93 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    height: 100%;
+    position:relative;
+}
+
+/*Menus*/
+.tit a{
+    position: absolute;
+    line-height: 40px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.cont{
+    margin: 0px 0px;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    height: 40px;
+
+}
+ul{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 25%;
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+
+}
+li{
+    margin-left: 10px;
+    line-height: 40px;
+    padding: 0px 10px;
+}
+
+li:hover{
+    background-color:#a33e3e;
+    transition: 0.5s ease;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #a33e3e;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#bar{
+    
+    padding: 0px 10px;
+    line-height: 40px;
+    display:flex;
+}
+.champ{
+    width:200px;
+    height:18px;
+}
+.bouton{
+    width: 28px;height:24px;
+    background-color: #a33e3e;
+    border-color: #a33e3e;
+    
+    padding: 0px;
+}
+.bouton:hover{
+    background-color:#eaf44e;
+    border-color: #eaf44e;
+    transition: 0.5s ease;
+}
+
+/*Body*/
+#selec1{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    margin-right: 150px;
+    text-align: center;
+
+}
+
+#selec1 p{
+    opacity: 1;
+}
